@@ -18,13 +18,13 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
 
       <Header />
 
       <Switch>
-        <Route path="/in" component={In} />
-        <Route path="/on" component={On} />
+        <Route path="/In" component={In} />
+        <Route path="/On" component={On} />
         <Route path="/" component={Home} />
       </Switch>
 

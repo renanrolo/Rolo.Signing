@@ -9,7 +9,7 @@ const Home = () => {
             </p>
 
             <p className="lead">
-                <Link to="/In" className="btn btn-lg btn-secondary">Logar</Link>
+                <Link to="In" className="btn btn-lg btn-secondary">Logar</Link>
             </p>
 
             <br />
@@ -19,7 +19,7 @@ const Home = () => {
             </p>
 
             <p className="lead">
-                <Link to="/On" className="btn btn-lg btn-secondary">Cadastrar</Link>
+                <Link to="On" className="btn btn-lg btn-secondary">Cadastrar</Link>
             </p>
         </div>
     );
