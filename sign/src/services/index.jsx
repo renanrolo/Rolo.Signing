@@ -1,4 +1,4 @@
-const key = "rr_auth";
+const key = process.env.REACT_APP_LOCAL_AUTH_KEY;
 
 export function setUser(user) {
     //Salvar no LocalStorage do navegador o usuario (é nele que está o token)
